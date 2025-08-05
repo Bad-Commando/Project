@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+  background-color: #e8eaf6;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 40%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+}
+
+.primary-heading {
+  text-transform: capitalize;
+  font-size: 2.6rem;
+}
+
+.school-name {
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.input {
+  width: 100%;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: #e8eaf6;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #3f51b5;
+}
+
+.login-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f51b5;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.login-icon {
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.header-login {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.forgot-password-box {
+  margin-bottom: 2rem;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.4rem;
+}
+
+.link:hover,
+.link:active {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+.btn {
+  border: none;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #3f51b5;
+}
