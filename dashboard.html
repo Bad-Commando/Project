@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Dashboard page</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <div class="container home-container grid grid-col-2">
+      <aside>
+        <div class="aside-bar">
+          <ul class="dash-list">
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Dashboard</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Register Asset</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Search Asset</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Lost & Found</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main class="dash-main">
+        <div class="search-box">
+          <input type="search" placeholder="Search assets..." class="search" />
+
+          <button type="button" class="menue">menu</button>
+        </div>
+
+        <header class="dash-header">
+          <h1>Dashboard</h1>
+          <p>An overview of all registration asset and activities.</p>
+        </header>
+        <div class="grid grid-col-3 block margin-bottom-5">
+          <div class="show">
+            <p class="color-dark">Total registred Asset</p>
+            <p class="number">6</p>
+            <p class="mini-text">+2 since last week</p>
+          </div>
+          <div class="show">
+            <p class="color-dark">Asset verified</p>
+            <p class="number">24</p>
+            <p class="mini-text">All asset verified for gate pass</p>
+          </div>
+          <div class="show">
+            <p class="color-dark">Lost & Found</p>
+            <p class="number">3</p>
+            <p class="mini-text">1 matched this week</p>
+          </div>
+        </div>
+        <div>
+          <div class="recent-item-box">
+            <header class="recent-registration">
+              <p class="number">Recent Registration</p>
+              <p>a list of the most recent registered asset</p>
+            </header>
+            <div class="grid grid-row-4 items-container">
+              <div class="grid grid-col-4 each-item">
+                <p>Student</p>
+
+                <p>Item</p>
+
+                <p>Status</p>
+
+                <p>Date</p>
+              </div>
+              <div class="grid grid-col-4 each-item">
+                <div class="student-name-box">
+                  <p class="student-name">aisha bello</p>
+                  <p class="reg-no">CST/21/COM/00765</p>
+                </div>
+                <p class="student-name">mattrass</p>
+                <div>
+                  <p class="item-status">registered</p>
+                </div>
+                <p>2025-06-01</p>
+              </div>
+              <div class="grid grid-col-4 each-item">
+                <div class="student-name-box">
+                  <p class="student-name">fatima bello</p>
+                  <p class="reg-no">CST/20/CBS/00356</p>
+                </div>
+                <p class="student-name">laptop</p>
+                <div>
+                  <p class="item-status">registered</p>
+                </div>
+                <p>2025-07-13</p>
+              </div>
+              <div class="grid grid-col-4 each-item">
+                <div class="student-name-box">
+                  <p class="student-name">joshua joshua</p>
+                  <p class="reg-no">CST/21/SWE/00893</p>
+                </div>
+                <p class="student-name">standing fan</p>
+                <div>
+                  <p class="item-status claimed">claimed</p>
+                </div>
+                <p>2025-06-01</p>
+              </div>
+              <div class="grid grid-col-4 each-item">
+                <div class="student-name-box">
+                  <p class="student-name">stephen adurasani</p>
+                  <p class="reg-no">ENG/21/ELE/00723</p>
+                </div>
+                <p>LG television</p>
+                <div>
+                  <p class="item-status">registered</p>
+                </div>
+                <p>2025-06-01</p>
+              </div>
+            </div>
+
+            <div></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
