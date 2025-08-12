@@ -1,32 +1,14 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 .label {
   display: block;
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-body {
-  color: #444;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+/******************************
+LOGIN PAGE CSS
+****************************** 
 
-.body {
-  background-color: #e8eaf6;
-}
-
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-}
+*/
 
 .login-container {
   display: flex;
@@ -43,11 +25,6 @@ body {
   align-items: center;
   padding: 2rem 4rem;
   border-radius: 1.5rem;
-}
-
-.primary-heading {
-  text-transform: capitalize;
-  font-size: 2.6rem;
 }
 
 .school-name {
@@ -107,18 +84,12 @@ body {
 .link:link,
 .link:visited {
   text-decoration: none;
-  color: #444;
   font-size: 1.4rem;
 }
 
 .link:hover,
 .link:active {
-  color: #3f51b5;
   text-decoration: underline;
-}
-
-.btn {
-  border: none;
 }
 
 .btn-login {
@@ -127,4 +98,181 @@ body {
   border-radius: 1rem;
   color: #fff;
   background-color: #3f51b5;
+}
+
+.block {
+  column-gap: 2rem;
+}
+
+/* DASHBOARD PAGE */
+
+.recent-registration {
+  padding: 1rem;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.recent-item-box {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.each-item:not(:last-child) {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.each-item {
+  padding: 2rem 1rem;
+  font-size: 1.6rem;
+}
+
+.each-item:hover {
+  background-color: #e8eaf6;
+}
+
+.aside-bar {
+  padding: 3rem;
+  background-color: #3f51b5;
+  height: 100%;
+  color: #fff !important;
+  position: fixed;
+}
+.aside-dash {
+  padding: 2rem;
+}
+
+.dash-list {
+  padding: 1rem;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  list-style-type: none;
+}
+.list {
+  padding: 0.5rem;
+}
+
+.aside-link {
+  color: #fff;
+}
+
+.student-name-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.reg-no {
+  color: #979797;
+}
+.menue {
+  border-radius: 50%;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+}
+.item-status {
+  border: 1px solid #979797;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.item-status.claimed {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+/* REGISTER PAGE */
+
+.register-main {
+  padding: 2rem;
+  margin-left: 2rem;
+}
+.detail-header {
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.detail-container {
+  border: #4444 solid;
+  border-radius: 1rem;
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.register-input {
+  width: 100%;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: #e1e1e1;
+  border: none;
+}
+.info-container {
+  display: flex;
+  flex-direction: row;
+}
+.info-child {
+  flex: 50%;
+  padding: 2rem;
+}
+.select-option {
+  width: 100%;
+  border: 1rem solid #e1e1e1;
+  border-radius: 1rem;
+  background-color: #e1e1e1;
+  font-size: 13px;
+}
+.textarea {
+  width: 100%;
+  padding: 3rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #e1e1e1;
+}
+.image-container {
+  padding: 2rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  border: dashed #979797;
+  padding: 10rem;
+  border-radius: 1rem;
+}
+
+.btn-display {
+  display: flex;
+  justify-content: end;
+}
+.btn-register {
+  width: 20%;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #3f51b5;
+}
+/* search page */
+.search-container {
+  padding: 2rem;
+}
+.search-page {
+  display: flex;
+  flex-direction: row;
+}
+.search-bar {
+  border-radius: 1rem;
+  border: none;
+  background-color: #fff;
+  flex: 50%;
 }
