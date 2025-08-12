@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Register page</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <div class="container home-container grid grid-col-2">
+      <aside>
+        <div class="aside-bar">
+          <ul class="dash-list">
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Dashboard</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Register Asset</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Search Asset</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="#" class="link aside-link">Lost & Found</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main class="register-main">
+        <div>
+          <div class="detail-header">
+            <header class="big-text">
+              <p>Register New Asset</p>
+            </header>
+          </div>
+          <div class="detail-container">
+            <p class="number">Asset Details</p>
+            <p class="mini-text">
+              Fill out the form below to register a student's property.
+            </p>
+            <div class="info-container">
+              <div class="info-child">
+                <label for="text" class="label">Student Full Name</label>
+                <input
+                  type="text"
+                  name="text"
+                  id=""
+                  class="register-input"
+                  placeholder="e.g., fatima bello"
+                />
+              </div>
+              <div class="info-child">
+                <label for="text" class="label">Registration Number </label>
+                <input
+                  type="text"
+                  name="text"
+                  id=""
+                  class="register-input"
+                  placeholder="e.g., CST/21/COM/00347"
+                />
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="info-child">
+                <label for="text" class="label">Item Name</label>
+                <input
+                  type="text"
+                  name="text"
+                  id=""
+                  class="register-input"
+                  placeholder="e.g., television,fan"
+                />
+              </div>
+              <div class="info-child">
+                <label for="text" class="label">Category</label>
+                <select name="asset" id="" class="select-option">
+                  <option value="" disabled selected>Select Category</option>
+                  <option value="mattress">Mattress</option>
+                  <option value="fan">Standin Fan</option>
+                  <option value="desk">Reading Desk</option>
+                  <option value="laptop">Laptop</option>
+                  <option value="other">other</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="text" class="label"
+                >Description & Identifying Marks</label
+              >
+              <textarea
+                name="description"
+                placeholder="e.g., scratch on the top-left corner, chelsea sticker on fan"
+                id=""
+                class="textarea"
+              ></textarea>
+            </div>
+            <div class="image-container">
+              <label for="text" class="label">Item image(optional)</label>
+              <div class="image">
+                <!-- <input type="image" src="" alt="image" /> -->
+                <input type="file" name="image" id="" />
+              </div>
+            </div>
+            <div class="btn-display">
+              <button type="button" class="btn btn-register">
+                Register Asset
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
