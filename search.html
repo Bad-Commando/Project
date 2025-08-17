@@ -3,17 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>search page</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Search page</title>
   </head>
-  <body>
-    <main class="search-container">
+  <body class="body">
+    <div class="container home-container grid grid-col-2">
+      <aside>
+        <div class="aside-bar">
+          <ul class="dash-list">
+            <div class="list">
+              <li>
+                <a href="dashboard.html" class="link aside-link">Dashboard</a>
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="Asset-register.html" class="link aside-link"
+                  >Register Asset</a
+                >
+              </li>
+            </div>
+            <div class="list">
+              <li>
+                <a href="search.html" class="link aside-link">Search Asset</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </aside>
+      <main class="register-main">
+        <div class="detail-header">
+          <header class="big-text">
+            <p>Search Asset</p>
+            <p class="mini-text">Quickly find any registered asset.</p>
+          </header>
+        </div>
+        <div>
+          <div class="grid grid-search">
+            <div class="search-page">
+              <input
+                type="search"
+                placeholder="Search assets..."
+                class="search-bar"
+              />
+            </div>
+            <div class="select-option">
+              <select name="asset" id="" class="select-option">
+                <option value="" disabled selected>Select Category</option>
+                <option value="mattress">Mattress</option>
+                <option value="fan">Standing Fan</option>
+                <option value="desk">Reading Desk</option>
+                <option value="laptop">Laptop</option>
+                <option value="other">other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+<!-- <main class="search-container">
       <div>
         <p class="number">Search Asset</p>
         <p class="mini-text">Quickly find any registered asset.</p>
       </div>
-      <div class="flex">
+      <div class="grid grid-search">
         <div class="search-page">
           <input
             type="search"
@@ -32,6 +98,4 @@
           </select>
         </div>
       </div>
-    </main>
-  </body>
-</html>
+    </main>-->

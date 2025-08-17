@@ -99,6 +99,11 @@ LOGIN PAGE CSS
   color: #fff;
   background-color: #3f51b5;
 }
+.go-student-page {
+  padding: 3rem;
+  text-align: center;
+  justify-content: center;
+}
 
 .block {
   column-gap: 2rem;
@@ -128,7 +133,9 @@ LOGIN PAGE CSS
   padding: 1rem 2rem;
   border-radius: 1rem;
 }
-
+.small-icon {
+  margin-left: 5rem;
+}
 .each-item:not(:last-child) {
   border-bottom: 1px solid #e1e1e1;
 }
@@ -270,9 +277,71 @@ LOGIN PAGE CSS
   display: flex;
   flex-direction: row;
 }
+.grid-search {
+  grid-template-columns: 2fr 1fr;
+  column-gap: 5rem;
+}
 .search-bar {
   border-radius: 1rem;
+  padding: 1rem 1rem;
   border: none;
-  background-color: #fff;
+  background-color: #e1e1e1;
   flex: 50%;
+}
+
+/* student dashboard */
+.header {
+  padding: 1.5rem 3rem;
+  border-bottom: 0.1rem solid #979797;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personal {
+  font-size: 2rem !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #444;
+}
+
+.btn-logout {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #979797;
+  border-radius: 0.5rem;
+}
+
+/* PERSONAL */
+.header-personal {
+  font-size: 1.6rem;
+}
+
+.cards-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #3f51b5;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+}
+
+.img-item-box {
+  width: 100%;
+  overflow: hidden;
+  height: 70%;
+}
+
+.img-item {
+  width: 100%;
 }

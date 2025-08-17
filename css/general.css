@@ -138,6 +138,7 @@ REUSEABLE COMPONENTS
 }
 .mini-text {
   font-size: small;
+  text-transform: capitalize;
 }
 .big-text {
   font-size: 35px;
