@@ -87,11 +87,6 @@ LOGIN PAGE CSS
   font-size: 1.4rem;
 }
 
-.link:hover,
-.link:active {
-  text-decoration: underline;
-}
-
 .btn-login {
   width: 100%;
   padding: 1rem;
@@ -134,7 +129,8 @@ LOGIN PAGE CSS
   border-radius: 1rem;
 }
 .small-icon {
-  margin-left: 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 .each-item:not(:last-child) {
   border-bottom: 1px solid #e1e1e1;
@@ -150,26 +146,38 @@ LOGIN PAGE CSS
 }
 
 .aside-bar {
-  padding: 3rem;
+  /* padding: 4rem 2rem; */
   background-color: #3f51b5;
   height: 100%;
   color: #fff !important;
   position: fixed;
 }
+
 .aside-dash {
   padding: 2rem;
 }
 
 .dash-list {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem 0;
   text-transform: capitalize;
   font-size: 1.6rem;
   list-style-type: none;
 }
-.list {
-  padding: 0.5rem;
+
+.aside-nav-list {
+  padding: 0.5rem 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
+.aside-nav-list:hover {
+  background-color: #dcdbdb44;
+  border-radius: 1rem;
+}
 .aside-link {
   color: #fff;
 }
@@ -329,11 +337,13 @@ LOGIN PAGE CSS
 }
 
 .card {
-  background-color: #3f51b5;
+  background-color: #fff;
   width: 20%;
   display: flex;
   flex-direction: column;
   height: 30rem;
+  border-radius: 1rem;
+  box-shadow: #979797;
 }
 
 .img-item-box {
@@ -344,4 +354,25 @@ LOGIN PAGE CSS
 
 .img-item {
   width: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.img-item:hover {
+  transform: scale(1.2);
+}
+.card-detail {
+  padding: 1rem;
+}
+.item-name {
+  background-color: #e1e1e1;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.card-text {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }

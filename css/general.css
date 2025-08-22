@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  /* max-width: 120rem; */
   margin: 0 auto;
 }
 
@@ -137,7 +137,8 @@ REUSEABLE COMPONENTS
   font-weight: 600;
 }
 .mini-text {
-  font-size: small;
+  font-size: 1.1rem;
+  font-weight: light;
   text-transform: capitalize;
 }
 .big-text {

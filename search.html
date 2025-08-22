@@ -20,27 +20,26 @@
   <body class="body">
     <div class="container home-container grid grid-col-2">
       <aside>
-        <div class="aside-bar">
+        <nav class="aside-bar">
           <ul class="dash-list">
-            <div class="list">
-              <li>
-                <a href="dashboard.html" class="link aside-link">Dashboard</a>
-              </li>
-            </div>
-            <div class="list">
-              <li>
-                <a href="Asset-register.html" class="link aside-link"
-                  >Register Asset</a
-                >
-              </li>
-            </div>
-            <div class="list">
-              <li>
-                <a href="search.html" class="link aside-link">Search Asset</a>
-              </li>
-            </div>
+            <li class="aside-nav-list">
+              <ion-icon name="apps-outline"></ion-icon>
+              <a href="/dashboard.html" class="link aside-link">Dashboard</a>
+            </li>
+
+            <li class="aside-nav-list">
+              <ion-icon name="add-circle-outline"></ion-icon>
+              <a href="/Asset-register.html" class="link aside-link"
+                >Register Asset</a
+              >
+            </li>
+
+            <li class="aside-nav-list">
+              <ion-icon name="search-outline"></ion-icon>
+              <a href="/search.html" class="link aside-link">Search Asset</a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </aside>
       <main class="register-main">
         <div class="detail-header">
@@ -49,7 +48,7 @@
             <p class="mini-text">Quickly find any registered asset.</p>
           </header>
         </div>
-        <div>
+        <div class="margin-bottom-4">
           <div class="grid grid-search">
             <div class="search-page">
               <input
@@ -70,32 +69,29 @@
             </div>
           </div>
         </div>
+        <div class="cards-container">
+          <div class="card">
+            <div class="img-item-box">
+              <img src="./img/desk.jpg" alt="" class="img-item" />
+            </div>
+            <div class="card-detail margin-bottom-2">
+              <p class="item-name">desk</p>
+              <p class="card-text">reading desk</p>
+              <p class="mini-text">CST/21/COM/00749</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-item-box">
+              <img src="./img/image.png" alt="" class="img-item" />
+            </div>
+            <div class="card-detail margin-bottom-2">
+              <p class="item-name">Laptop</p>
+              <p class="card-text">Dell Laptop</p>
+              <p class="mini-text">CST/21/COM/00749</p>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   </body>
 </html>
-<!-- <main class="search-container">
-      <div>
-        <p class="number">Search Asset</p>
-        <p class="mini-text">Quickly find any registered asset.</p>
-      </div>
-      <div class="grid grid-search">
-        <div class="search-page">
-          <input
-            type="search"
-            placeholder="Search assets..."
-            class="search-bar"
-          />
-        </div>
-        <div>
-          <select name="asset" id="" class="">
-            <option value="" disabled selected>Select Category</option>
-            <option value="mattress">Mattress</option>
-            <option value="fan">Standin Fan</option>
-            <option value="desk">Reading Desk</option>
-            <option value="laptop">Laptop</option>
-            <option value="other">other</option>
-          </select>
-        </div>
-      </div>
-    </main>-->
